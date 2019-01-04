@@ -1,0 +1,2 @@
+docker run -p 5000:5000 teht7_front
+docker run -p 8000:8000 teht7_back
