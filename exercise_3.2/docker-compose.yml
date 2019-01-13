@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+
+  yle-dl:
+    image: yle-dl
+    build: .
+    volumes:
+      - .:/app
+    container_name: yle-dl 

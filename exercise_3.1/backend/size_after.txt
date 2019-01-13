@@ -1,0 +1,12 @@
+IMAGE               CREATED              CREATED BY                                      SIZE                COMMENT
+d0cdfe19c1b0        About a minute ago   /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "npm …   0B                  
+c93d31d63ded        About a minute ago   /bin/sh -c npm install                          1.07MB              
+d2821fe6b21a        2 minutes ago        /bin/sh -c #(nop) COPY dir:bdf39468d80b7e15f…   47.2MB              
+b15ceb1142d2        6 minutes ago        /bin/sh -c #(nop) WORKDIR /app                  0B                  
+c41c59821e87        7 minutes ago        /bin/sh -c apt-get update && apt-get install…   141MB               
+bf062ac7ade1        About an hour ago    /bin/sh -c #(nop)  EXPOSE 8000                  0B                  
+b0ef3016420a        12 days ago          /bin/sh -c #(nop)  CMD ["/bin/bash"]            0B                  
+<missing>           12 days ago          /bin/sh -c mkdir -p /run/systemd && echo 'do…   7B                  
+<missing>           12 days ago          /bin/sh -c rm -rf /var/lib/apt/lists/*          0B                  
+<missing>           12 days ago          /bin/sh -c set -xe   && echo '#!/bin/sh' > /…   745B                
+<missing>           12 days ago          /bin/sh -c #(nop) ADD file:7f95be7c8278786d5…   117MB               

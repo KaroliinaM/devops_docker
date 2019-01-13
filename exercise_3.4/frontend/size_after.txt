@@ -1,0 +1,15 @@
+IMAGE               CREATED              CREATED BY                                      SIZE                COMMENT
+2389fe891ae1        About a minute ago   /bin/sh -c #(nop)  CMD ["/bin/sh" "-c" "npm …   0B                  
+abdd58f18794        About a minute ago   /bin/sh -c #(nop)  USER node                    0B                  
+879c8ae3d151        2 minutes ago        /bin/sh -c npm install                          132MB               
+4f91d0cc0984        3 minutes ago        /bin/sh -c #(nop) COPY --chown=nodedir:fc094…   292kB               
+e5c828132aa9        15 minutes ago       /bin/sh -c chown -R node /app                   0B                  
+3daacd9f2c9d        15 minutes ago       /bin/sh -c #(nop) WORKDIR /app                  0B                  
+bf10b335637c        29 minutes ago       /bin/sh -c #(nop)  EXPOSE 5000                  0B                  
+9036ebdbc59d        2 weeks ago          /bin/sh -c #(nop)  CMD ["node"]                 0B                  
+<missing>           2 weeks ago          /bin/sh -c apk add --no-cache --virtual .bui…   5.08MB              
+<missing>           2 weeks ago          /bin/sh -c #(nop)  ENV YARN_VERSION=1.12.3      0B                  
+<missing>           2 weeks ago          /bin/sh -c addgroup -g 1000 node     && addu…   62MB                
+<missing>           2 weeks ago          /bin/sh -c #(nop)  ENV NODE_VERSION=11.6.0      0B                  
+<missing>           3 weeks ago          /bin/sh -c #(nop)  CMD ["/bin/sh"]              0B                  
+<missing>           3 weeks ago          /bin/sh -c #(nop) ADD file:2ff00caea4e83dfad…   4.41MB              
